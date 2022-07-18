@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jul 17 13:21:54 2022
-
-@author: mayan
-"""
 # make sure to install these packages before running:
 # pip install pandas
 # pip install sodapy
