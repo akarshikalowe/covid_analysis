@@ -54,5 +54,3 @@ ax.set_title('Top 10 countries with the Positive test records',
              loc ='left', )
 plt.xlabel('ratio')
 plt.ylabel('states')  
-# Show Plot
-plt.show()
