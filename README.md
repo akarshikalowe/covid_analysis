@@ -6,9 +6,16 @@ Data Dictionary: https://healthdata.gov/dataset/COVID-19-Diagnostic-Laboratory-T
 Please install the following libraries 
 pip install pandas
 pip install sodapy
+pip install matplotlib
  
 ## Challenges:
 The path given had a limit of 1000 data records. Therefore, it has been increased to 200,000. Although we can also apply best practice for ETL implementation i.e. fetching the data state/date wise by making required changes to the API link and scripting accordingly.
+
+## Code:
+### covidAnalysis.py : Main code
+### positiveRatioChart.py : Code to create chart for problem 3
+### rollingAverageChart.py : Code to create chart for problem 2
+### Output : library has all outputs
  
 ## About the data :
 Used Sodapy python library to fetch data from API. 
