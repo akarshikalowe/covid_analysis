@@ -32,7 +32,7 @@ total_results_reported (long) - The cumulative number of tests completed with th
 Checked for null records (if any). 
 ### Problem Statement 1- The total number of PCR tests performed as of yesterday in the United States.
 Solution: Fetched all the records before today’s date and took the sum of new_results_reported.
-In all there were 928,413,010 tests performed in the United States.
+##### In all there were 928,413,010 tests performed in the United States.
  
 ### Problem Statement 2- The 7-day rolling average number of new cases per day for the last 30 days.
 Solution: As seen in the graph Chart_problem_2.png, the 7-day rolling average per day decreased overtime in the past month and a sudden dip can be seen in the last three days of July, 2022. We can conclude that last week of July 2022 saw less number of test cases. The graph has been created using library matplotlib.
